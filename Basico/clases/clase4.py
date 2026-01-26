@@ -1,3 +1,5 @@
+#Manejo de Cadenas y Operaciones Básicas en Python
+
 name = "Miguel"
 text = "TEXTO UPPERCASE"
 text2 = "texto lower"
