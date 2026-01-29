@@ -66,3 +66,21 @@ mix.insert(1,['a','b'])
 print(mix)
 
 print(mix.index(['a','b']))
+
+
+
+number = [1,2,100,4,89,120.20]
+print(number)
+print("Mayor: ", max(number))
+print("Menor: ", min(number))
+
+
+#para eliminar elementos de una lista podemos usar del
+#por ejemplo eliminaremos el index -1 es decir el ultimo elemento dentro de la lista de datos que es number
+del number[-1]
+print(number)
+
+#Tambien podemos eliminar varias elementos simultaneamente con el index:index en este caso queremos eliminar desde el index 0 hasta el 2
+#entonces seria 0:2
+del number[:2]
+print(number)
