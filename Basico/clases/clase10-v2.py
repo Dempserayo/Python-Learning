@@ -1,54 +1,29 @@
-#Diccionarios
+#piezas: P para peón, R para torre, N para caballo (knight), B para alfil, Q para reina y K para rey. Las piezas
+#Para distinguir entres las fichas blancas y negras sera por minusculas(negras) y mayusculas(blancas).
 
-numbers = {1:"uno",2:"dos", 3:"tres"}
-#print(numbers[2])
+chess_board = [
+    ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
+    ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0, 0, 0, 0],
+    ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
+    ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R']
+]
 
-information = {"Nombre": "Miguel Angel", 
-"Apellido": "Jaimes P.",
-"Altura": 1.78,
-"Edad": 22
-}
+chess_board[7][1] = 0
+chess_board[5][2] = 'N'
+print(chess_board)
+print(len(chess_board))
 
-#print(information)
-del information["Edad"]
-#print(information)
-
-claves = information.keys()
-print(claves)
-#print(type(claves))
-
-values = information.values()
-#print(values)
-
-pairs = information.items()
-#print(pairs)
-
-contacts = {
-"Miguel Angel":
-   {
-        "Apellido": "Jaimes P.",
-        "Altura": 1.78,
-        "Edad": 22
-    },
-"Jhon":
-    {
-        "Apellido": "Doe",
-        "Altura": 1.68,
-        "Edad": 31
-    },
-"Michael":
-    {
-        "Apellido": "Jordan",
-        "Altura": 1.68,
-        "Edad": 32
-    },
-"Leo":
-    {
-        "Apellido": "Messi",
-        "Altura": 1.68,
-        "Edad": 33
-    }
-}
-
-print(contacts)
-print(contacts["Miguel Angel"])
+# Moveria el caballo a este lugar.
+#    ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
+#    ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
+#    [0, 0, 0, 0, 0, 0, 0, 0],
+#    [0, 0, 0, 0, 0, 0, 0, 0],
+#    [0, 0, 0, 0, 0, 0, 0, 0],
+#    [0, 0, "ACA", 0, 0, 0, 0, 0],
+#    ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
+#    ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R']
+#]
