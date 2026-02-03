@@ -1,1 +1,8 @@
 #Realizare ejercicios o problemas que me vaya generando Chagpt o que vaya viendo por internet, para aprender y poner a prueba lo aprendido
+
+def test_function():
+    return print("hola")
+
+
+test_function()
+
