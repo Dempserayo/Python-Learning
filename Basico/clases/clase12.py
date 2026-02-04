@@ -48,7 +48,7 @@ for i in reversed(nombres):
     print(i)
 
 
-numeros = [1,2,3,4,5]
+test = [1,2,3,4,5]
 
 
 paises = ["colombia","peru","venezuela",]
@@ -76,6 +76,18 @@ for fruit in fruits:
 
 
 
-numeros = 0
-for numero in range(-100,101):
-    print(numero)
+
+for test in range(20,0, -1):
+    print(test)
+
+
+
+pruebas = [1,2,3,4,5]
+print("prueba:",len(pruebas))
+
+for prueba in range(len(pruebas)):
+    print(prueba)
+
+
+for par in range(6,1,-2):
+    print("prueba",par)
