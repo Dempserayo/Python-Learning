@@ -73,5 +73,9 @@ for fruit in fruits:
     print(fruit)
     if fruit == "Naranja":
         print ("Naranja encontrada")
-    else:
-        print("Naranja no se encontro")
+
+
+
+numeros = 0
+for numero in range(-100,101):
+    print(numero)
