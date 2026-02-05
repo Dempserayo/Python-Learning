@@ -19,10 +19,10 @@ print(claves)
 #print(type(claves))
 
 values = information.values()
-#print(values)
+print("value",values)
 
 pairs = information.items()
-#print(pairs)
+print("pairs",pairs)
 
 contacts = {
 "Miguel Angel":

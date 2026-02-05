@@ -69,6 +69,7 @@ print(mix.index(['a','b']))
 
 
 
+
 number = [1,2,100,4,89,120.20]
 print(number)
 print("Mayor: ", max(number))
