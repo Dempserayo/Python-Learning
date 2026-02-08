@@ -66,3 +66,12 @@ print(numeros5)
 nueva_lista(numeros5)        
 print("_____________________________")
 
+
+
+#Ejercicio 6
+
+celcius = [0,10,20,30,40]
+fahrenheit = [(temp * 9/5) *35 for temp in celcius]
+print("Ejercicio 6: ")
+print("Temperatura en F:",fahrenheit[0:2])
+print("_____________________________")
